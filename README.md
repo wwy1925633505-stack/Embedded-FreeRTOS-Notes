@@ -41,6 +41,17 @@
 | `task_notification` | ISR 通过任务通知唤醒处理任务 | 需 FreeRTOS |
 | `uart_rx_pipeline` | UART DMA/空闲中断到解析任务 | 需 FreeRTOS/适配层 |
 
+## Agent Skills
+
+仓库同时提供两个可直接交给 Codex/智能体读取的工程 Skill：
+
+| Skill | 用途 |
+| --- | --- |
+| [`embedded-git-submit`](skills/embedded-git-submit/SKILL.md) | 检查代码改动、排除嵌入式构建产物、拆分提交并生成安全的 Git 指令 |
+| [`layered-freertos-firmware`](skills/layered-freertos-firmware/SKILL.md) | 按驱动层、中间层、OS 适配层和应用层生成或重构解耦的 FreeRTOS 固件 |
+
+Skill 提炼自模块化 STM32/FreeRTOS 工程习惯，但只保留通用架构和代码规范，不包含具体产品业务代码。
+
 ## Build and Test
 
 主机端测试只覆盖与硬件无关的纯 C 模块：
@@ -64,4 +75,3 @@ FreeRTOS 示例用于展示设计模式，需放入具体 MCU 工程并实现 HA
 ## Disclaimer
 
 本仓库仅包含通用学习笔记和重新编写的示例代码，不包含任何公司源码、产品参数或保密实现。
-

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Layered FreeRTOS Firmware"
+  short_description: "按驱动层、中间层、应用层生成解耦的 FreeRTOS 固件代码"
+  default_prompt: "Use $layered-freertos-firmware to design this embedded feature with clear layers and decoupled interfaces."

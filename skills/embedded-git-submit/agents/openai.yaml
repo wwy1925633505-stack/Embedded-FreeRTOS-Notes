@@ -1,0 +1,4 @@
+interface:
+  display_name: "Embedded Git Submit"
+  short_description: "检查改动并生成安全、规范、可直接执行的 Git 提交指令"
+  default_prompt: "Use $embedded-git-submit to inspect my changes and prepare safe Git commit commands."
