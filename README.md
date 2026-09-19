@@ -5,7 +5,7 @@
 [![CI](https://github.com/wwy1925633505-stack/Embedded-FreeRTOS-Notes/actions/workflows/ci.yml/badge.svg)](https://github.com/wwy1925633505-stack/Embedded-FreeRTOS-Notes/actions)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-一个面向嵌入式开发、知识复盘和面试准备的 FreeRTOS 学习仓库。内容强调“原理—代码—验证”闭环，不依赖特定商业项目。
+一个面向嵌入式开发、知识复盘的 FreeRTOS 学习仓库。
 
 ## Repository Map
 
